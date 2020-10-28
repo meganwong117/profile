@@ -1,15 +1,14 @@
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+
 body {
-  background-color: #F5F6F6;
+  background: #F5F6F6;
   color: #575F7D;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-}
+  font-size: 16px;
 
-p {
-  font-family:'Montserrat', sans-serif;
-  font-weight: 300;
-  margin: 20px 30px;
-  margin-bottom: 30px;
+}
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -18,56 +17,32 @@ h1 {
   font-size: 24px;
   font-weight: bold;
 }
-
 h2 {
   color: #6B73E1;
   font-family: 'Montserrat';
   font-size: 18px;
   font-weight: bold;
 }
-
 h3 {
   color: #6B73E1;
   font-family: 'Montserrat';
   font-size: 16px;
   font-weight: bold;
 }
-
 a {
   text-decoration: none;
   color: #557398;
   font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
-
 a:hover {
   text-decoration: underline;
 }
 
-#headshot {
-  width: 220px;
-  height: 220px;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.btn-purple {
-  background-color: #6B73E1;
-  color: white;
-  padding: 15px 15px;
-  font-size: 14px;
-  border-radius: 15px;
-  margin: 50px auto;
-}
-
-div {
-  text-align: center;
-  background: white;
-  padding: 30px;
-  padding-bottom: 60px;
-  margin: 30px auto;
-  width: 600px;
-  border-radius: 4px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);  /* Light shadow */
+.container {
+  width: 700px;
+  margin: 40px auto;
 }
 
 @media (max-width: 960px) {
@@ -89,6 +64,47 @@ div {
   .class {
   width: 300px;
   }
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-purple {
+  background-color: #6B73E1;
+  color: white;
+  padding: 10px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin: 50px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #6B73E1;
+}
+
+.list-inline i:hover {
+  color: black;
 }
 
 
